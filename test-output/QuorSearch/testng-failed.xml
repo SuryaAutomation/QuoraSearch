@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [QuorSearch]">
+  <parameter name="browser" value="chrome"/>
+  <test name="QuoraSearch(failed)">
+    <classes>
+      <class name="com.Selenium.QuoraSearch.QuoraSearch">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="QuoraVerification"/>
+        </methods>
+      </class> <!-- com.Selenium.QuoraSearch.QuoraSearch -->
+    </classes>
+  </test> <!-- QuoraSearch(failed) -->
+</suite> <!-- Failed suite [QuorSearch] -->
